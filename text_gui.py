@@ -4,10 +4,10 @@ import os
 import tkinter.messagebox as messagebox
 
 file_name=None
-PROGRAM_NAME="My Editor"
+PROGRAM_NAME="PyEditor"
 
 window=Tk()
-window.title("My Editor")
+window.title("PyEditor")
 window.iconbitmap('icons/pypad.ico')
 w, h = window.winfo_screenwidth(),window.winfo_screenheight()
 window.geometry("%dx%d+0+0" % (w, h))
