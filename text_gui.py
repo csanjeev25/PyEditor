@@ -288,7 +288,7 @@ for i in ('cut', 'copy', 'paste', 'undo', 'redo'):
     cmd = eval(i)
     popup_menu.add_command(label=i, compound='left', command=cmd)
     popup_menu.add_separator()
-    popup_menu.add_command(label='Select All', underline=7,command=select_all)
+popup_menu.add_command(label='Select All', underline=7,command=select_all)
 
 scroll_bary = Scrollbar(content_text)
 scroll_bary.config(command=content_text.yview)
